@@ -3,3 +3,11 @@ This is a file that we can pretend is a game file!
 --- LUNAROOOO!!!
 
 - Calex Raffield
+
+#include "player-emotions.h"
+
+if (!playerIsHavingFun()) {
+  for (u_int32t i; i < playersLength; i++) {
+    players[i] = getBetterPlayer();  
+  }
+}
